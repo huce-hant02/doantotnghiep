@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"backend/doantotnghiep/model"
 	"database/sql"
+	"doantotnghiep/model"
 	"encoding/json"
 	"fmt"
 	"log"

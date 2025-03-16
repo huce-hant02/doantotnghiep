@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"backend/doantotnghiep/model"
+	"doantotnghiep/model"
 	"log"
 
 	"gorm.io/driver/postgres"
@@ -16,7 +16,7 @@ func openConnection() (*gorm.DB, error) {
 		" password=" + dbPassword +
 		" sslmode=disable"
 	db, err := gorm.Open(postgres.Open(connectSQL), &gorm.Config{
-		Logger: logger.Default.LogMode(logger.Silent),
+		Logger: logger.Default.LogMode(logger.Info),
 		// DisableForeignKeyConstraintWhenMigrating: true,
 	})
 	if err != nil {

@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"backend/doantotnghiep/utils"
+	"doantotnghiep/utils"
 	"fmt"
 	"strconv"
 

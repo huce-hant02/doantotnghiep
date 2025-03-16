@@ -43,8 +43,8 @@ type ScholasticSemester struct {
 
 	EducationPrograms []EducationProgram `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 	Outlines          []Outline          `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
-	AbetPrograms      []AbetProgram      `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
-	AbetOutlines      []AbetOutline      `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
+	//AbetPrograms      []AbetProgram      `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
+	//AbetOutlines      []AbetOutline      `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 
 	DefaultStandardOutputs []DefaultStandardOutput `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 	DefaultITUs            []DefaultITU            `swaggerignore:"true" json:"-" gorm:"foreignKey:ScholasticSemesterID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"backend/doantotnghiep/infrastructure"
-	"backend/doantotnghiep/router"
+	"doantotnghiep/infrastructure"
+	"doantotnghiep/router"
 	"fmt"
 	"log"
 	"net/http"

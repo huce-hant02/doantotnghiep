@@ -2,7 +2,7 @@ package middlewares
 
 import (
 	"context"
-	"doantotnghiep/doantotnghiep/infrastructure"
+	"doantotnghiep/infrastructure"
 	"errors"
 
 	"github.com/lestrrat-go/jwx/jwt"
